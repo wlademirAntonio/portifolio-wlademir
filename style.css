@@ -1,7 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap');
+
 body {
     overflow: hidden;
 }
+
 .bg-jumb {
     background: linear-gradient(to bottom, #00b894, #b2bec3);
     height: 100vh;
+}
+
+.bg-nav {
+    background: #00b894;
+}
+
+nav > a {
+    font-family: 'Inconsolata', monospace;
 }
