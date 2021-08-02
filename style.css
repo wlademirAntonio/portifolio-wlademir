@@ -16,3 +16,13 @@ body {
 nav > a {
     font-family: 'Inconsolata', monospace;
 }
+
+#content {
+    margin-top: 10% !important;
+}
+
+@media (max-width: 575.98px) {
+    #content {
+        margin-top: 0  !important;
+    }
+}
