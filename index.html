@@ -2,43 +2,43 @@
 <html lang="pt-br">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu Portifólio - Wlademir</title>
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="style.css">
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Meu Portifólio - Wlademir</title>
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    
-    <nav class="navbar navbar-expand-lg bg-nav navbar-dark fixed-top">
-        <a class="navbar-brand text-white">wlademirAntonio</a>
-    </nav>
 
-    <div class="jumbotron bg-jumb">
-        <div class="conteiner-fluid">
-            <div id="content" class="row justify-content-center mt-4">
-                <div class="col-6 col-sm-4 col-md-2 mt-5 mt-sm-4 mt-md-0">
-                    <a>
-                        <img src="img/programmer.png" alt="Sobre" class="img-fluid">
+	<nav class="navbar navbar-expand-lg bg-nav navbar-dark fixed-top">
+		<a class="navbar-brand text-white">wlademirAntonio</a>
+	</nav>
+
+	<div class="jumbotron bg-jumb">
+		<div class="conteiner-fluid">
+			<div id="content" class="row justify-content-center mt-4">
+				<div class="col-6 col-sm-4 col-md-2 mt-5 mt-sm-4 mt-md-0">
+					<a href="about.html">
+						<img src="img/programmer.png" alt="Sobre" class="img-fluid">
                         <h5 class="text-center text-white">Quem sou eu?</h5>
                     </a>
                 </div>
                 <div class="col-6 offset-sm-1 col-sm-4 offset-md-1 col-md-2 mt-5 mt-sm-4 mt-md-0">
-                    <a>
+                    <a href="work.html">
                         <img src="img/work.png" alt="Trabalhos" class="img-fluid">
                         <h5 class="text-center text-white">Trabalhos</h5>
                     </a>
                 </div>
                 <div class="col-6 col-sm-4 offset-md-1 col-md-2 mt-5 mt-sm-4 mt-md-0">
-                    <a>
+                    <a href="client.html">
                         <img src="img/team.png" alt="Team" class="img-fluid">
                         <h5 class="text-center text-white">Parceiros</h5>
                     </a>
                 </div>
                 <div class="col-6 offset-sm-1 col-sm-4 offset-md-1 col-md-2 mt-5 mt-sm-4 mt-md-0">
-                    <a>
+                    <a href="contact.html">
                         <img src="img/contacts.png" alt="Contatos" class="img-fluid">
                         <h5 class="text-center text-white">Contatos</h5>
                     </a>
@@ -56,8 +56,29 @@
         </div>
     </div>
 
+    <!-- Janela modal -->
+    <div class="modal fade" id="modal-info" role="dialog" aria-labelledby="information" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Título da nossa Modal</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                        <spam aria-hidden="true">&times;</spam>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem ipsa nemo architecto nisi, fuga iste quas velit. Quam, cupiditate. Dolor quaerat totam mollitia iure, reprehenderit corrupti nobis eos sunt a?</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secundary" data-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <script src="js/jquery-3.6.0.min.js"></script>
     <script src="js/bootstrap.js"></script>
+    <script src="js/load-page.js"></script>
 </body>
 
 </html>
