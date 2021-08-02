@@ -6,7 +6,7 @@ $(document).ready(function(){
     $('a').click(function(e){
         e.preventDefault()
 
-        $('modal-info').modal('show')
+        $('#modal-info').modal('show')
     })
 
 })
