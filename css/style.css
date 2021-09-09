@@ -7,13 +7,22 @@ body {
 .bg-jumb {
     background: linear-gradient(to bottom, #00b894, #b2bec3);
     height: 100vh;
+    color: #fff;
 }
 
-.bg-nav {
-    background: #00b894;
+.bg-light {
+    background: linear-gradient(to bottom left, #bdc3c7, #ecf0f1);
+    height: 100vh;
+    color: #000;
 }
 
-nav > a {
+.bg-dark {
+    background: #2d3436;
+    height: 100vh;
+    color: #fff;
+}
+
+nav > h4 {
     font-family: 'Inconsolata', monospace;
 }
 
